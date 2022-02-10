@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(151, 206, 255);
+    cursor: url(), auto;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    color: rgb(245, 135, 214);
+    filter: drop-shadow(2px 2px 2px rgb(239, 133, 255));
+}
+
+#small-text {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(98, 22, 250);
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    display: block;
+    background-color: tomato;
+    color: white;
+    font-size: 30px;
+    /* font-family: 'Indie Flower', cursive; */
+    /* inherit can be used to use the font that was used previously */
+    font-family: inherit;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    filter: drop-shadow(5px 5px 5px black);
+    /* Creates rounded buttons (border-radius */
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+button:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
